@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sly_web_api</groupId>
+  <artifactId>sly_web_api</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>sly_web_api Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+    		<artifactId>sly_middle_config</artifactId>
+    		<groupId>sly_middle_config</groupId>
+    		<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    
+    <dependency>
+    		 <groupId>sly_service_facade</groupId>
+		 <artifactId>sly_service_facade</artifactId>
+		 <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    
+    <dependency>
+	    	<groupId>sly_service_user</groupId>
+		<artifactId>sly_service_user</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+ 		<groupId>sly_middle_base</groupId>
+		<artifactId>sly_middle_web</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+    
+    
+  </dependencies>
+  <build>
+    <finalName>sly_web_api</finalName>
+  </build>
+</project>
