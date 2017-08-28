@@ -9,7 +9,7 @@
 	<dubbo:application name="sly-web-api" />
 
 	<!-- 使用zookeeper注册中心暴露发现服务地址 -->
-  	<dubbo:registry protocol="zookeeper" address="zookeeper://139.224.13.34:2181"  check="false"/>
+  	<dubbo:registry protocol="zookeeper" address="139.224.13.34:2181"  check="false"/>
   	
 	<!-- 测试用户服务接口引用 -->
 	<import resource="dubbo-reference-user.xml" />
